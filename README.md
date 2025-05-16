@@ -14,6 +14,16 @@ Combines deep learning and classical methods for accurate football match analysi
 
 ![Pipeline](assets/pipeline.png)
 
+## Model Performance (YOLOv5x)
+
+| Class       | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
+|-------------|-----------|--------|---------|--------------|
+| **Player**      | 0.963     | 0.964  | 0.981   | 0.787        |
+| **Goalkeeper**  | 0.843     | 0.992  | 0.968   | 0.740        |
+| **Referee**     | 0.917     | 0.888  | 0.938   | 0.665        |
+| **Ball**        | 0.927     | 0.229  | 0.486   | 0.194        |
+
+
 ## Setup
 
 ```
@@ -33,11 +43,3 @@ pip install -r requirements.txt
    python main.py
    ```
 
-## Model Performance (YOLOv5x)
-
-| Class       | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
-|-------------|-----------|--------|---------|--------------|
-| **Player**      | 0.963     | 0.964  | 0.981   | 0.787        |
-| **Goalkeeper**  | 0.843     | 0.992  | 0.968   | 0.740        |
-| **Referee**     | 0.917     | 0.888  | 0.938   | 0.665        |
-| **Ball**        | 0.927     | 0.229  | 0.486   | 0.194        |
