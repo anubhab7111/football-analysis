@@ -12,7 +12,7 @@ This project is a football video analysis pipeline using machine learning and co
 
 Combines deep learning and classical methods for accurate football match analysis.
 
-- ![Pipeline](assets/pipeline.png)
+![Pipeline](assets/pipeline.png)
 
 ## Setup
 
