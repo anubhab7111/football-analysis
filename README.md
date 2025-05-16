@@ -21,7 +21,6 @@ Combines deep learning and classical methods for accurate football match analysi
 | **Player**      | 0.963     | 0.964  | 0.981   | 0.787        |
 | **Goalkeeper**  | 0.843     | 0.992  | 0.968   | 0.740        |
 | **Referee**     | 0.917     | 0.888  | 0.938   | 0.665        |
-| **Ball**        | 0.927     | 0.229  | 0.486   | 0.194        |
 
 
 ## Setup
